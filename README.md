@@ -7,7 +7,7 @@ The Goal of this project is to implement a Digimon VPet with all the functionali
 At the moment there is just the UI implemented but no functionality. But the Long Term goals are:
 
 Hardware independence:
-- the ardware should be highly customizable, so you can use different displays, different inputs etc. 
+- the hardware should be highly customizable, so you can use different displays, different inputs etc. 
 
 Functionality:
 - Internet connectivity through WiFi
@@ -22,7 +22,7 @@ Customizable:
 
 # How to install 
 ## on ESP32 (TTGO T-Display)
-Clone the Repo into VSCode/PlatformIO and just flash it to your device. Don't forget to configure your TFT_eSPI library properly (uncommenting/commenting the right line in user_setup_select.h). If you want to use Arduino IDE: the content of main.cpp is equal to arduinos *.ino files. 
+Clone the Repo into VSCode/PlatformIO and just flash it to your device. Don't forget to configure your TFT_eSPI library properly (uncommenting/commenting the right line in user_setup_select.h and user_setup.h). If you want to use Arduino IDE: the content of main.cpp is equal to arduinos *.ino files. 
 
 ## on other Devices:
 Clone the Repo and configure TFT_eSPI library properly (uncommenting/commenting the right line in user_setup_select.h). Then change the define macros for the buttons according to your wiring. 
